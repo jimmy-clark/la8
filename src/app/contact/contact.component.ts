@@ -21,6 +21,7 @@ export class ContactComponent implements OnInit {
     if (savedContacts && savedContacts.length > 0) {
       this.contacts = savedContacts;
     } else {
+      // not sure why this error is happening
       this.contacts = await this.loadItemsFromFile();
     }
     this.sortByID(this.contacts);
