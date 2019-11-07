@@ -1,0 +1,36 @@
+[
+{
+    "id": 1,
+    "firstName": "James",
+    "lastName": "Clark",
+    "email": "jimmy@quesadillagorilla.com",
+    "phone": "(559) 259 5072",
+    "editing": false
+},
+{
+    "id": 2,
+    "firstName": "Samantha",
+    "lastName": "Bacon",
+    "email": "samantha@quesadillagorilla.com",
+    "phone": "(559) 259 5501",
+    "editing": false
+
+},
+{
+    "id": 3,
+    "firstName": "Maria",
+    "lastName": "Mora",
+    "email": "maria@quesadillagorilla.com",
+    "phone": "(559) 259 2141",
+    "editing": false
+
+},
+{
+    "id": 4,
+    "firstName": "Samantha",
+    "lastName": "Clark",
+    "email": "sam@quesadillagorilla.com",
+    "phone": "(559) 259 5906",
+    "editing": false
+}
+]
