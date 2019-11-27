@@ -1,5 +1,5 @@
 // i deleted an import, is that where my error is?
-interface IContact {
+export interface IContact {
     id?: number;
     firstName?: string;
     lastName?: string;
@@ -14,6 +14,7 @@ export class Contact {
     public email?: string;
     public phone?: string;
     public editing?: boolean;
+
     constructor(contact: IContact) {
         contact.editing = this.setState(contact);
         Object.assign(this, contact);
